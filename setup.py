@@ -17,10 +17,10 @@ setup(name='openaps',
     url="https://openaps.org/",
     packages=find_packages( ),
     include_package_data = True,
-#    install_requires = [
-#      'pyserial', 'python-dateutil', 'argcomplete',
-#      'gitpython <= 2.1.11', 'mock', 'nose',
-#      'decocare > 0.0.26', 'dexcom_reader >= 0.1.8'
+    install_requires = [
+      'pyserial', 'python-dateutil', 'argcomplete',
+      'gitpython <= 2.1.11', 'mock', 'nose',
+      'decocare > 0.0.26', 'dexcom_reader >= 0.1.8'
     ],
     dependency_links = [
       'http://github.com/openaps/dexcom_reader/tarball/master#egg=dexcom_reader-master',
